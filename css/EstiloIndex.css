@@ -1,0 +1,24 @@
+
+
+
+
+.food-items {
+  margin: 0 auto;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 35px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  display: flex;
+}
+
+
+.book-container {
+  padding: 20px 20px;
+  text-align: left;
+}
+
+  .imgRedonda {
+    width:350px;
+    height:350px;
+    border-radius: 150%;
+}
+

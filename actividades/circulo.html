@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>implementaci�n del algoritmo de trazado de c�rculos de Bresenham</title>
+  </head>
+
+  <body>
+
+    <!-- Archivo con la rutina para pintar c�rculos utilizando javascript -->
+    <script src="circulo.js"></script>
+    <form id="f"> <!-- Formulario para introducir coordenadas y color del pixel -->
+      <label id=" ">Diametro: </label>
+      <label id="x1">iniciox</label>
+      color<input name="c" type="color" /> <!-- Indicar el color del punto -->
+      <!-- Bot�n para llamar a la funci�n que muestra el punto -->
+     
+    </form>
+
+    <!-- Lienzo para pintar los circulos -->
+    <canvas id="lienzo" width="400" height="400" onmousedown="dibujar(event)"> 
+    </canvas> <!-- La funci�n dibujar se ejecuta cada que se hace clic sobre el lienzo -->
+
+  </body>
+
+</html>
